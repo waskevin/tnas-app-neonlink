@@ -1,9 +1,6 @@
 services:
   neonlink:
-    image: 
-alexscifier/neonlink
-:
-v1.5.0
+    image: alexscifier/neonlink:v1.5.0
     restart: unless-stopped
     environment:
       TZ: Asia/Shanghai
